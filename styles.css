@@ -1,0 +1,55 @@
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.empty-boxes{
+  margin: auto;
+  margin-top: 110px;
+  width: 500px;
+  height: 190px;
+}
+
+.error404{
+  height: 140px;
+  width: 400;
+  font-size: 120px;
+  line-height: 140px;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.error-content{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0; 
+  padding-top: 10px;
+  width: 400px;
+  height: 140px;
+  text-align: center;
+  margin: auto; 
+}
+
+.error404:hover + .error-content {
+    opacity: 1;
+    transition: opacity .4s ease-in-out;
+}
+
+.footer-home-page{
+  font-size:16px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #2f80ed;
+}
